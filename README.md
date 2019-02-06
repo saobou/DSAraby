@@ -7,11 +7,14 @@ We've created a library named "DSAraby" that aims to transliterate text which wr
 ## How to use it ?
 <code>
   from dsaraby import DSAraby
-  
+ </code>
+ <code>
   ds = DSAraby()
-
+</code>
+<code>
   w = ds.transliterate('chokran likom kamliin')
-
+</code>
+<code>
   print(w)
   
 </code>

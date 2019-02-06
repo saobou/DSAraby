@@ -8,12 +8,15 @@ We've created a library named "DSAraby" that aims to transliterate text which wr
 <code>
   from dsaraby import DSAraby
  </code>
+  <br>
  <code>
   ds = DSAraby()
 </code>
+<br>
 <code>
   w = ds.transliterate('chokran likom kamliin')
 </code>
+<br>
 <code>
   print(w)
   

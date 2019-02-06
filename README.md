@@ -3,3 +3,12 @@ We've created a library named "DSAraby" that aims to transliterate text which wr
 
 ## Example
 <img src="assets/dsaraby.png" />
+
+## How to use it ?
+<code>
+from dsaraby import DSAraby
+ds = DSAraby()
+w = ds.transliterate('chokran likom kamliin')
+print(w)
+  
+</code>
